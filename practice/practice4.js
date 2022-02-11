@@ -28,3 +28,5 @@ for (i = 1; i <= n; i++) {
     string += "\n";
 }
 console.log(string);
+
+// New comment to practice git
