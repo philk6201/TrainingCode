@@ -7,6 +7,6 @@ for (i = 1; i <= n; i++) {
     for (j = 1; j <= n; j++) {
         string += "*";
     }
-    string += "\n";
+    string += "<br>";
 }
-console.log(string);
+document.write(string);

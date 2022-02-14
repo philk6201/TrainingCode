@@ -11,7 +11,6 @@ for (let i = 0; i < n; i++) {
     }
 
 
-    string += "\n";
+    string += "<br>";
 }
-
-console.log(string);
+document.write(string);
