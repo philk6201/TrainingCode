@@ -1,0 +1,59 @@
+.new {
+    border-radius: 50px;
+}
+
+form {
+    text-align: center;
+}
+
+.firstNameBox {
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.lastnamebox {
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.numberbox {
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.emailbox {
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.pincodebox {
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.genderbox {
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.countrybox {
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.datebox {
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.buttonbox {
+    margin-top: 40px;
+}
