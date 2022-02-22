@@ -1,11 +1,11 @@
-let n = 5;
+let n = 10;
 let string = "";
 for (i = 0; i < n; i++) {
-    for (j = 0; j < i; j++) {
+    for (k = 0; k < i; k++) {
         string += " ";
     }
-    for (k = 0; k < n - i; k++) {
-        string += n - k - j;
+    for (l = 0; l < (n - i); l++) {
+        string += n - l - k;
     }
     string += "\n";
 }

@@ -1,16 +1,14 @@
-let n = 5;
+let n = 4;
 let string = "";
-
 for (i = 1; i <= n; i++) {
-    for (j = 0; j < n - i; j++) {
+    for (j = 1; j <= n - i; j++) {
         string += " ";
-
     }
-
-    for (k = 1; k <= (2 * i) - 1; k++) {
+    for (k = i; k >= 1; k--) {
         string += k;
-
-
+    }
+    for (l = 2; l <= i; l++) {
+        string += l;
     }
     string += "\n";
 }
