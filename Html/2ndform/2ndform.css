@@ -1,0 +1,152 @@
+.main {
+    text-align: center;
+}
+
+.firstname-div {
+    background-color: #e0e3e3;
+    margin-top: 20px;
+}
+
+.firstname {
+    margin-left: 95px;
+}
+
+.lastname {
+    margin-left: 97px;
+}
+
+.lastname-div {
+    background-color: #e0e3e3;
+    margin-top: 20px;
+}
+
+.username {
+    background-color: #e0e3e3;
+    margin-top: 20px;
+}
+
+.Username1 {
+    margin-left: 100px;
+}
+
+.password {
+    background-color: #e0e3e3;
+    margin-top: 20px;
+}
+
+.password1 {
+    margin-left: 103px;
+}
+
+.confirmPassword {
+    background-color: #e0e3e3;
+    margin-top: 20px;
+}
+
+.c0nfirmpassword1 {
+    margin-left: 50px;
+}
+
+.birthdate {
+    background-color: #e0e3e3;
+    margin-top: 20px;
+}
+
+.birthdate1 {
+    margin-left: 106px;
+    font-size: 16px;
+}
+
+.emailid {
+    background-color: #e0e3e3;
+    margin-top: 20px;
+}
+
+.emailid1 {
+    margin-left: 110px;
+}
+
+.genderbox {
+    background-color: #e0e3e3;
+    margin-top: 20px;
+    display: flex;
+}
+
+.gender1 {
+    margin-left: 76px;
+}
+
+.gender2 {
+    margin-left: 112px;
+}
+
+.countryBox {
+    background-color: #e0e3e3;
+    margin-top: 20px;
+    display: flex;
+}
+
+#country {
+    margin-left: 121px;
+}
+
+.labelc {
+    margin-left: 75px;
+}
+
+.state {
+    background-color: #e0e3e3;
+    margin-top: 20px;
+}
+
+.state1 {
+    margin-left: 75px;
+}
+
+.city {
+    background-color: #e0e3e3;
+    margin-top: 20px;
+}
+
+.city1 {
+    margin-left: 126px;
+}
+
+.signup {
+    background-color: #e0e3e3;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.jan1 {
+    font-size: 23px;
+    background-color: #e0e3e3;
+    margin: auto;
+    text-align: center;
+    width: fit-content;
+}
+
+.jan2 {
+    border: solid black 2px;
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+}
+
+.mobile-div {
+    background-color: #e0e3e3;
+    margin-top: 20px;
+}
+
+.mobile {
+    margin-left: 100px;
+}
+
+.signup1 {
+    margin-left: 296px;
+    font-size: 20px;
+    color: red;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: ;
+}
