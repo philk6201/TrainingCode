@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js"></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator text-center col-md-6 m-auto">
+            <h2>Calculator</h2>
+            <form name="form1">
+                <div class="col-md-12 p-0 d-flex">
+                    <div class="calculator-key col-md-12">
+                        <input type="text" id="result" name="answer" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-12 p-0 d-flex">
+                    <div class="calculator-key col-md-6">
+                        <input type="button" value="Clear" class="form-control" onclick="clearResult('clear')">
+                    </div>
+                    <div class="calculator-key col-md-3">
+                        <input type="button" class="form-control" value="delete" onclick="backspaceRessult('delete')">
+                    </div>
+                    <div class="calculator-key col-md-3">
+                        <input type="button" class="form-control" value="/" onclick="getSelectedSymbolValue('/')">
+                    </div>
+                </div>
+                <div class="col-md-12 p-0 d-flex">
+                    <div class="calculator-key col-md-3">
+                        <input type="button" class="form-control" value="1" onclick="getSelectedNumberValue('1')">
+                    </div>
+                    <div class=" calculator-key col-md-3 ">
+                        <input type="button" class="form-control" value="2" onclick="getSelectedNumberValue('2')">
+                    </div>
+                    <div class=" calculator-key col-md-3">
+                        <input type="button" class="form-control" value="3" onclick="getSelectedNumberValue('3')">
+                    </div>
+                    <div class="calculator-key col-md-3 ">
+                        <input type="button" class="form-control" value="-" onclick="getSelectedSymbolValue('-')">
+                    </div>
+                </div>
+                <div class="col-md-12 p-0 d-flex">
+                    <div class="calculator-key col-md-3 ">
+                        <input type="button" class="form-control" value="4" onclick="getSelectedNumberValue('4')">
+                    </div>
+                    <div class="calculator-key col-md-3 ">
+                        <input type="button" class="form-control" value="5" onclick="getSelectedNumberValue('5')">
+                    </div>
+                    <div class="calculator-key col-md-3 ">
+                        <input type="button" class="form-control" value="6" onclick="getSelectedNumberValue('6')">
+                    </div>
+                    <div class="calculator-key col-md-3">
+                        <input type="button" class="form-control" value="*" onclick="getSelectedSymbolValue('*')">
+                    </div>
+                </div>
+                <div class="col-md-12 p-0 d-flex">
+                    <div class="calculator-key col-md-3 ">
+                        <input type="button" class="form-control" value="7" onclick="getSelectedNumberValue('7')">
+                    </div>
+                    <div class="calculator-key col-md-3 ">
+                        <input type="button" class="form-control" value="8" onclick="getSelectedNumberValue('8')">
+                    </div>
+                    <div class="calculator-key col-md-3 ">
+                        <input type="button" class="form-control" value="9" onclick="getSelectedNumberValue('9')">
+                    </div>
+                    <div class="calculator-key col-md-3 ">
+                        <input type="button" class="form-control" value="+" onclick="getSelectedSymbolValue('+')">
+                    </div>
+                </div>
+                <div class="col-md-12 p-0 d-flex">
+                    <div class="calculator-key col-md-3 ">
+                        <input type="button" class="form-control" value="." onclick="getSelectedSymbolValue('.')">
+                    </div>
+                    <div class="calculator-key col-md-3 ">
+                        <input type="button" class="form-control" value="0" onclick="getSelectedNumberValue('0')">
+                    </div>
+                    <div class="calculator-key col-md-6 ">
+                        <input type="button" class="form-control" value="=" onclick="getFinalOutput('=')">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

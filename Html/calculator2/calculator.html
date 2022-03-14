@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="col-md-3"></div>
+        <div class="col-md-6 text-center">
+            <h3>Calculator</h3>
+            <form name="form1">
+                <div class="calculator-key col-md-12 ">
+                    <input type="number" class="form-control" id="firstnumber" placeholder="Enter your first number">
+                </div>
+                <div class="calculator-key col-md-12">
+                    <input type="number" class="form-control" id="secondnumber" placeholder="Enter your last number">
+                </div>
+                <div class="col-md-12 p-0 d-flex">
+                    <div class="calculator-key col-md-6 ">
+                        <input type="button" class="form-control" value="+" onclick="addby('+')">
+                    </div>
+                    <div class="calculator-key col-md-6">
+                        <input type="button" class="form-control" value="-" onclick="subtractby('-')">
+                    </div>
+                </div>
+                <div class="calculator-key col-md-6">
+                    <input type="button" class="form-control" value="/" onclick="devideby('/')">
+                </div>
+                <div class="calculator-key col-md-6">
+                    <input type="button" class="form-control" value="*" onclick="multiplyBy('*')">
+                </div>
+                <div class="calculator-key col-md-12">
+                    <input readonly type="text" class="form-control" id="result">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

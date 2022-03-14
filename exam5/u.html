@@ -1,0 +1,60 @@
+let a = "my";
+let l = a.length;
+let b = "name";
+let m = b.length;
+let c = "is";
+let n = c.length;
+let d = "anic";
+let o = d.length;
+
+
+let string = "";
+for (i = 0; i < l; i++) {
+    for (j = 0; j < l; j++) {
+
+        if (i == l - 1) {
+            string += a[l - j - 1];
+
+        } else {
+            string += "";
+        }
+    }
+}
+for (i = 0; i < m; i++) {
+    for (j = 0; j < m; j++) {
+
+        if (i == m - 1) {
+            string += b[m - j - 1];
+
+        } else {
+            string += " ";
+        }
+    }
+}
+for (i = 0; i < n; i++) {
+    for (j = 0; j < n; j++) {
+
+        if (i == n - 1) {
+            string += c[n - j - 1];
+
+        } else {
+            string += "";
+        }
+
+    }
+
+}
+for (i = 0; i < o; i++) {
+    for (j = 0; j < o; j++) {
+
+        if (i == o - 1) {
+            string += d[o - j - 1]
+
+        } else {
+            string += "";
+        }
+
+    }
+
+}
+console.log(string);

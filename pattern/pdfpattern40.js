@@ -1,4 +1,4 @@
-let a = "programmingspark";
+let a = "my name is anik";
 let l = a.length;
 
 let string = "";

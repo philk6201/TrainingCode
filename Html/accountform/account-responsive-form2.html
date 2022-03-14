@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="account-responsive-form.css">
+    <script src="accountresponsive.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-group text-center">
+            <h2>Contact form</h2>
+        </div>
+        <form id="myform" onkeypress="validation()">
+            <div class="form-group col-md-6">
+                <div class="form-label">
+                    <label>First name<span> *</span></label>
+                </div>
+                <div class="form-in">
+                    <input type="text" class="form-control" placeholder="enter your first name" name="firstname" id="first-name">
+                    <span id="firstn-m"></span>
+                </div>
+            </div>
+            <div class="form-group col-md-6">
+                <div class="form-label">
+                    <label>Last name</label>
+                </div>
+                <div class="form-in">
+                    <input type="text" class="form-control" placeholder="Enter last name" name="lastname" id="last-name">
+                    <span id="lastn-m"></span>
+                </div>
+            </div>
+            <div class="form-group col-md-6">
+                <div class="form-label">
+                    <label>Email-id<span> *</span></label>
+                </div>
+                <div class="form-in">
+                    <input type="email" class="form-control" placeholder="Enter your email id" name="Email" id="emailid">
+                    <span id="email-m"></span>
+                </div>
+            </div>
+            <div class="form-group col-md-6">
+                <div class="form-label">
+                    <label>Username<span> *</span></label>
+                </div>
+                <div class="form-in">
+                    <input type="text" class="form-control" placeholder="Enter User name" name="username" id="user-name">
+                    <span id="user-m"></span>
+                </div>
+
+            </div>
+            <div class="form-group col-md-6">
+                <div class="form-label">
+                    <label>Password<span> *</span></label>
+                </div>
+                <div class="form-in">
+                    <input type="password" class="form-control" name="password" placeholder="enter your password" id="firstpassword">
+                    <span id="pass-m"></span>
+                </div>
+            </div>
+            <div class="form-group col-md-6">
+                <div class="form-label">
+                    <label>confirm-password<span> *</span></label>
+                </div>
+                <div class="form-in">
+                    <input class="form-control" type="password" name="confirmpassword" placeholder="enter your password" id="secondpassword">
+                    <span id="cnfpass-m"></span>
+                </div>
+            </div>
+            <div class="form-group col-md-6">
+                <div class="form-label">
+                    <label>Source of income</label>
+                </div>
+                <div class="form-in">
+                    <select class="form-control" name="income" id="sourceofincome">
+                        <option value="Employed">Employed</option>
+                        <option value="Student">Student</option>
+                        <option value="Buisnessman">Buisenessman</option>
+                        <option value="Manager">Manager</option>
+                        <option value="Startup">Startup</option>
+                        <option value="Others">Others</option>     
+                    </select>
+                    <span id="select-m"></span>
+                </div>
+            </div>
+            <div class="form-group col-md-6">
+                <div class="form-label">
+                    <label>Upload profile Picture<span> *</span></label>
+                </div>
+                <div class="form-in">
+                    <input class="form-control" type="file" placeholder="Choose File" name="file" id="profile">
+                    <span id="upload-m"></span>
+                </div>
+            </div>
+            <div class="form-group col-md-6">
+                <div class="form-label">
+                    <label>Gender<span> *</span></label>
+                </div>
+                <div class="form-in">
+                    <label class="radio-inline">
+                        <input type="radio" id="radio1" name="optradio" >Male
+                      </label>
+                    <label class="radio-inline">
+                        <input type="radio" id="radio2" name="optradio">Female
+                      </label>
+                    <label class="radio-inline">
+                        <input type="radio" id="radio3" name="optradio">Others
+                      </label>
+
+                </div>
+                <span id="radio-m"></span>
+            </div>
+            <div class="form-group col-md-6">
+                <div class="form-label">
+                    <label>Hobbies<span> *</span></label>
+                </div>
+                <div class="form-in">
+                    <input type="checkbox" name=""> Music
+                    <input type="checkbox"> Sports
+                    <input type="checkbox"> Travel
+                    <input type="checkbox"> Movies
+
+                </div>
+                <span id="checkbox-m"></span>
+            </div>
+            <div class="form-group col-md-6">
+                <div class="form-label">
+                    <label>Age<span> *</span></label>
+                </div>
+                <div class="formin">
+                    <input class="form-control" type="number" size="2" name="age" min="18" max="45" placeholder="enter your age." id="age.">
+                    <span id="age-m"></span>
+                </div>
+            </div>
+            <div class="form-group col-md-6">
+                <div class="form-label">
+                    <label>Mobile-no<span> *</span></label>
+                </div>
+                <div class="formin">
+                    <input class="form-control" type="number" placeholder="Enter your mobile-no" name="mobileno" id="mobile-no">
+                    <span id="mobile-m"></span>
+                </div>
+            </div>
+            <div class="form-group col-md-12">
+                <div class="form-label">
+                    <label>Bio<span> *</span></label>
+                </div>
+                <div class="form-in">
+                    <textarea class="form-control" rows="5" id="comment" name="area" onkeypress="validation()"></textarea>
+                    <span id="bio-m"></span>
+                </div>
+
+            </div>
+            <div class="form-group col-md-12">
+                <div class="form-label">
+                </div>
+                <button type="button" class="btn btn-primary" onclick="required()">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

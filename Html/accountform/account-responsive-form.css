@@ -1,0 +1,30 @@
+.form-label {
+    color: green;
+}
+
+.container {
+    background-color: #e0e3e3;
+    border: solid #3b6e86a6 20px;
+    border-radius: 10px;
+}
+
+.btn {
+    float: right;
+    border-radius: 10px;
+    height: 40px;
+    color: whitesmoke;
+    outline: dotted black 2px;
+    margin-top: 52px;
+}
+
+span {
+    color: red;
+}
+
+body {
+    background-image: url(bg.jpg);
+}
+
+.form-group {
+    height: 90px;
+}

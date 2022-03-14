@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    word-break: break-all;
+}
+
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url("/font/Roboto-Black.ttf");
+}
+
+.container {
+    background-image: url("containerbackground.jpg");
+    width: 100%;
+}
+
+.navbar-brand {
+    color: red;
+    padding: 32px 30px;
+}
+
+.navbar-list {
+    display: flex;
+    font-size: 32px;
+    width: 80%;
+}
+
+button.login-buttons {
+    border-radius: 29px;
+    border: solid white;
+    height: 51px;
+    width: 106px;
+    background-color: transparent;
+    color: white;
+}
+
+.nav-items a {
+    float: left;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 42px 24px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.navbar-buttons {
+    display: flex;
+    padding: 29px;
+    font-size: 17px;
+    float: right;
+    color: white;
+    width: 20%;
+}
+
+.website-making-heading {
+    font-size: 36px;
+}

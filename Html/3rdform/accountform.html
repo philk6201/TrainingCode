@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="accountform.css">
+</head>
+
+<body>
+    <div class="upperpart">
+        <h2>Create Account</h2>
+        <div class="formlayout">
+            <form>
+                <div class="form-group">
+                    <div class="form-label">
+                        <label> First name<span> *</span></label>
+                    </div>
+                    <div class="formin">
+                        <input class="form-input oneside" type="text" pattern="[a-zA-Z'-'\s]*" name="first_name" placeholder="enter your first name..." required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="form-label">
+                        <label> Last name<span> *</span></label>
+                    </div>
+                    <div class="formin">
+                        <input class="form-input secondside" name="last_name" type="text" pattern="[a-zA-Z'-'\s]*" placeholder="enter your last name..." required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-label">
+                        <label>Email</label>
+                    </div>
+                    <div class="formin">
+                        <input class="form-input oneside" type="email" pattern="[^ @]*@[^ @]*" placeholder="enter your mail" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-label">
+                        <label>Username</label>
+                    </div>
+                    <div class="formin">
+                        <input class="form-input secondside" type="text" placeholder="enter your user name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-label">
+                        <label>Password <span>*</span></label>
+                    </div>
+                    <div class="formin">
+                        <input class="form-input oneside" type="password" placeholder="enter your password" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-label">
+                        <label>confirm password<span>*</span></label>
+                    </div>
+                    <div class="formin">
+                        <input class="form-input secondside" type="password" placeholder="enter your password again" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-label">
+                        <label>Source of income</label>
+                    </div>
+                    <div class="formin">
+                        <select class="form-input oneside" name="dropdown income" required>
+                                <option value="Employed">Employed</option>
+                                <option value="Student">Student</option>
+                            <option value="Buisnessman">Buisenessman</option>
+                            <option value="Manager">Manager</option>
+                            <option value="Startup">Startup</option>
+                            <option value="Others">Others</option>
+                            </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-label">
+                        <label>Upload profile Picture</label>
+                    </div>
+                    <div class="formin">
+                        <input class="form-input oneside" type="file" placeholder="Choose File">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-label">
+                        <label>Mobile.no Format ((7|8|9)xxxxxxxx)</label>
+                    </div>
+                    <div class="formin">
+                        <input class="form-input secondside" type="number" name="mobileno" placeholder="enter your mobile.no.." pattern="[789][0-9]{9}" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-label">
+                        <label>Age</label>
+                    </div>
+                    <div class="formin">
+                        <input class="form-input " type="number" size="4" name="age" min="18" placeholder="enter your age." required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-label">
+                        <label>Gender</label>
+                    </div>
+                    <div class="formin">
+                        <input type="radio" name="Gender" value="MALE"> Male
+                        <input type="radio" name="Gender" value="FEMALE"> Female
+                        <input type="radio" name="Gender" value="OTHERS"> Others
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-label">
+                        <label>Hobbies</label>
+                    </div>
+                    <div class="form-input">
+                        <input type="checkbox">Music
+                        <input type="checkbox">Sports
+                        <input type="checkbox">Travel
+                        <input type="checkbox">Movies
+                    </div>
+                </div>
+        </div>
+        <div class="group">
+            <div class="form-label">
+                <label>Bio</label>
+            </div>
+            <div class="form-i">
+                <input class="form-stay" type="text" placeholder="enter your bio">
+            </div>
+        </div>
+        <div class="button">
+            <input type="submit">
+
+        </div>
+        </form>
+    </div>
+    </div>
+</body>
+
+</html>
